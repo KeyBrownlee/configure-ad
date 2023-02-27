@@ -24,10 +24,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create a Domain Controller virtual machine and a Windows 10 virtual machine. 
+- Insall Active Directory on the Domain Controller VM, and create a new forest.
+- Create New Organizational Units called "Employees" and "Admins", set up remote desktop use or non-adminstrative user.
+- In Powershell as an administrator run a script that generates multiple new users and login to remote desktop with one of the newly created users. 
 
 <h2>Deployment and Configuration Steps</h2>
 
