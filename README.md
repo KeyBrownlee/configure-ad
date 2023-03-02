@@ -40,10 +40,14 @@ Client-1 VM control panel showing connection to Domain Controller VM after enabl
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wFoc2MK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<img src="https://i.imgur.com/Bryvro4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<img src="https://i.imgur.com/tJ5xfDP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Active Directory being installed on Domain Controller, new forest domain being created, and logging back into Domain Controller with new domain. 
 </p>
 <br />
 
