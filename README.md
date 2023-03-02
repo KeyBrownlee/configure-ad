@@ -69,3 +69,22 @@ New admin account being created in Active Directory, then Logging back into Doma
 Remote Desktop Login to Client-1 virtual machine with admin user created on Domain Controller virtual Machine after joining Client-1 VM to Domain Controller VM and changing the DNS settings to that of the Domain Controller. 
 </p>
 <br />
+<img src="https://i.imgur.com/o3Vkebn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+In Powersell ISE on the Domain Controller a script to create multiple users within the users database is ran, generating other non-administrative users that can now login to Client-1.  
+</p>
+<br />
+<img src="https://i.imgur.com/o3Vkebn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+In Powersell ISE on the Domain Controller a script to create multiple users within the users database is ran, generating other non-administrative users that can now login to Client-1.  
+</p>
+<br />
+<img src="https://i.imgur.com/vXgLaAI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<img src="https://i.imgur.com/bq894yH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p>
+After new users have been created in Domain Controller a non admin user is selected to successfully Remote Desktop into Client-1 with one of the newly created users.
+</p>
+<br />
