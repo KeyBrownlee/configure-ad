@@ -24,10 +24,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Create a Domain Controller virtual machine and a Windows 10 virtual machine. 
-- Insall Active Directory on the Domain Controller VM, and create a new forest.
-- Create New Organizational Units called "Employees" and "Admins", set up remote desktop use or non-adminstrative user.
-- In Powershell as an administrator run a script that generates multiple new users and login to remote desktop with one of the newly created users. 
+- Create a Domain Controller virtual machine and a Windows 10 virtual machine 
+- Insall Active Directory on the Domain Controller VM, and create a new forest
+- Create New Organizational Units called "Employees" and "Admins", set up remote desktop use or non-adminstrative user
+- Join Client-1 Virtual Machine to Domain Controller Virtual Machine by updating the DNS settings to reflect that of Domain Controller in Client-1
+- In Powershell as an administrator run a script that generates multiple new users and login to remote desktop with one of the newly created users 
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -47,7 +48,7 @@ Client-1 VM control panel showing connection to Domain Controller VM after enabl
 <img src="https://i.imgur.com/tJ5xfDP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Active Directory being installed on Domain Controller, new forest domain being created, and logging back into Domain Controller with new domain. 
+Active Directory being installed on Domain Controller, new forest domain being created, and logging back into Domain Controller with new domain 
 </p>
 <br />
 
@@ -57,7 +58,7 @@ Active Directory being installed on Domain Controller, new forest domain being c
 <img src="https://i.imgur.com/rrsFNYg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-New admin account being created in Active Directory, then Logging back into Domain Controller with the newly created admin account. 
+New admin account being created in Active Directory, then Logging back into Domain Controller with the newly created admin account 
 </p>
 <br />
 <p>
@@ -66,25 +67,25 @@ New admin account being created in Active Directory, then Logging back into Doma
 <img src="https://i.imgur.com/xhj8EzH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Remote Desktop Login to Client-1 virtual machine with admin user created on Domain Controller virtual Machine after joining Client-1 VM to Domain Controller VM and changing the DNS settings to that of the Domain Controller. 
+Remote Desktop Login to Client-1 virtual machine with admin user created on Domain Controller virtual Machine after joining Client-1 VM to Domain Controller VM and changing the DNS settings to that of the Domain Controller 
 </p>
 <br />
 <img src="https://i.imgur.com/o3Vkebn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In Powersell ISE on the Domain Controller a script to create multiple users within the users database is ran, generating other non-administrative users that can now login to Client-1.  
+In Powersell ISE on the Domain Controller a script to create multiple users within the users database is ran, generating other non-administrative users that can now login to Client-1  
 </p>
 <br />
 <img src="https://i.imgur.com/o3Vkebn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In Powersell ISE on the Domain Controller a script to create multiple users within the users database is ran, generating other non-administrative users that can now login to Client-1.  
+In Powersell ISE on the Domain Controller a script to create multiple users within the users database is ran, generating other non-administrative users that can now login to Client-1  
 </p>
 <br />
 <img src="https://i.imgur.com/vXgLaAI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <img src="https://i.imgur.com/bq894yH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
-After new users have been created in Domain Controller a non admin user is selected to successfully Remote Desktop into Client-1 with one of the newly created users.
+After new users have been created in Domain Controller a non admin user is selected to successfully Remote Desktop into Client-1 with one of the newly created users
 </p>
 <br />
