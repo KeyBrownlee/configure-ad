@@ -52,6 +52,15 @@ Active Directory being installed on Domain Controller, new forest domain being c
 <br />
 
 <p>
+<img src="https://i.imgur.com/A8hbZW9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<img src="https://i.imgur.com/rrsFNYg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+New admin account being created in Active Directory, then Logging back into Domain Controller with the newly created admin account. 
+</p>
+<br />
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
